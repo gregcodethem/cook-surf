@@ -4,8 +4,6 @@ from django.http import HttpRequest
 
 from buildpanel.views import home_page
 
-# Create your tests here.
-
 
 class HomePageTest(TestCase):
 

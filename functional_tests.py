@@ -10,7 +10,7 @@ class NewVisitorTest(unittest.TestCase):
 		self.browser.quit()
 
 	def test_can_choose_a_website_end_template(self):
-		self.browser.get('http://localhost:8000')
+		self.browser.get('http://192.168.99.100:8000/')
 
 		self.assertIn('Teaching Site Builder', self.browser.title)
 		self.fail('Finish the test!')
