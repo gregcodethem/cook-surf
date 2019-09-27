@@ -10,6 +10,7 @@ django = "==2.2.5"
 selenium = "<4"
 pytest = "*"
 pytest-django = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.7"
